@@ -1328,7 +1328,7 @@ a.goto-social:hover {
 }
 
 .contact-wrap .bg-success {
-    color: #e91e63;
+    color: #1e81e9;
 }
 
 /* *******Footer Sec CSS******* */
@@ -1618,11 +1618,11 @@ footer .goto-top a:hover span {
     }
 
     nav.navbar.navbar-default li a:hover span {
-        color: #e91e63;
+        color: #1e81e9;
     }
 
     nav.navbar.navbar-default li.active a span {
-        color: #e91e63;
+        color: #1e81e9;
     }
 
     nav.navbar.navbar-default li:hover,
@@ -1744,7 +1744,7 @@ footer .goto-top a:hover span {
     }
 
     header .btn .mask {
-        background: #e91e63;
+        background: #1e81e9;
     }
 
     header .btn:hover {
