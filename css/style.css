@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*------------------------------------------------------------------
+/* ------------------------------------------------------------------
 [Master Stylesheet]
 Project:	Eric
 ++++ Imports ++++
@@ -20,10 +20,10 @@ Project:	Eric
 	**Contact Sec CSS**
 	**Footer Sec CSS**
 ++++ Mediaqueries ++++
--------------------------------------------------------------------*/
-/****************************/
-/** Imports **/
-/****************************/
+------------------------------------------------------------------- */
+/* ************************** */
+/* * Imports * */
+/* ************************** */
 @import url(animate.css);
 @import url(font-awesome.min.css);
 @import url(pe-icon-7-stroke.css);
@@ -36,9 +36,9 @@ Project:	Eric
 @import url(default-skin/default-skin.css);
 @import url(lightgallery.css);
 
-/****************************/
-/** Reset **/
-/****************************/
+/* ************************** */
+/* * Reset * */
+/* ************************** */
 html,
 body,
 div,
@@ -180,7 +180,7 @@ h6 {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 42px;
     line-height: 60px;
     text-transform: capitalize;
     font-weight: 500;
@@ -230,10 +230,10 @@ p {
     content: "¡";
 }
 
-/****************************/
-/** Main **/
-/****************************/
-/********Basic Sec CSS********/
+/* ************************** */
+/* * Main * */
+/* ************************** */
+/* *******Basic Sec CSS******* */
 .pad-zero {
     padding: 0;
 }
@@ -517,7 +517,7 @@ p {
     }
 }
 
-/********Body Sec CSS********/
+/* *******Body Sec CSS******* */
 .fixed-bg {
     background: transparent url("../img/mainbg.jpg") no-repeat;
     image-rendering: optimizeQuality;
@@ -551,7 +551,7 @@ p {
     -webkit-backface-visibility: hidden;
 }
 
-/********About Sec CSS********/
+/* *******About Sec CSS******* */
 .content-block {
     background: #141414;
     border-top-left-radius: 10px;
@@ -568,10 +568,10 @@ p {
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../img/profilepic.jpg');
+    background-image: url('../img/index.html');
 }
 
-/********Header Sec CSS********/
+/* *******Header Sec CSS******* */
 .btn {
     font-size: 11px;
     font-weight: 500;
@@ -693,7 +693,7 @@ header.fixed .btn {
 }
 
 header.fixed .btn .mask {
-    background: #e91e63;
+    background: #337ab7;
 }
 
 header.fixed .btn:hover,
@@ -705,7 +705,7 @@ header.fixed .btn:active {
     color: #fff !important;
 }
 
-/********Vertical Nav Sec CSS********/
+/* *******Vertical Nav Sec CSS******* */
 nav.navbar.navbar-default.vertical-nav {
     position: fixed;
     -moz-transform: translateZ(0);
@@ -850,7 +850,7 @@ a.goto-social:hover {
     border-color: #454648;
 }
 
-/********Services Sec CSS********/
+/* *******Services Sec CSS******* */
 .services-icon-wrap span {
     display: block;
 }
@@ -885,7 +885,7 @@ a.goto-social:hover {
     color: #fff;
 }
 
-/********Skills Sec CSS********/
+/* *******Skills Sec CSS******* */
 .skills-wrap {
     overflow: visible;
 }
@@ -942,7 +942,7 @@ a.goto-social:hover {
     padding-bottom: 10px;
 }
 
-/********Project Sec CSS********/
+/* *******Project Sec CSS******* */
 .project-gallery a {
     display: block;
     overflow: hidden;
@@ -1032,7 +1032,7 @@ a.goto-social:hover {
     margin-bottom: 0;
 }
 
-/********Education Sec CSS********/
+/* *******Education Sec CSS******* */
 .education-wrap .qualfication-wrap {
     margin-top: 42px;
 }
@@ -1100,7 +1100,7 @@ a.goto-social:hover {
     display: block;
 }
 
-/********Experience Sec CSS********/
+/* *******Experience Sec CSS******* */
 .experience-wrap .duration span {
     color: #fff;
     font-family: "Hind", sans-serif;
@@ -1175,12 +1175,12 @@ a.goto-social:hover {
     border: 3px solid #1e81e9;
 }
 
-/********Client Sec CSS********/
+/* *******Client Sec CSS******* */
 .client-wrap .owl-carousel .owl-item img {
     width: auto;
 }
 
-/********Achivement Sec CSS********/
+/* *******Achivement Sec CSS******* */
 .achivement-list-wrap li ul {
     float: left;
     width: 100%;
@@ -1208,7 +1208,7 @@ a.goto-social:hover {
     width: 70%;
 }
 
-/********Contact Sec CSS********/
+/* *******Contact Sec CSS******* */
 .contact-wrap .form-control {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -1331,7 +1331,7 @@ a.goto-social:hover {
     color: #e91e63;
 }
 
-/********Footer Sec CSS********/
+/* *******Footer Sec CSS******* */
 @-webkit-keyframes blinking {
     0% {
         opacity: 0;
@@ -1550,9 +1550,9 @@ footer .goto-top a:hover span {
     -ms-transform: translateY(-100%);
 }
 
-/****************************/
-/** Mediaqueries **/
-/****************************/
+/* ************************** */
+/* * Mediaqueries * */
+/* ************************** */
 @media only screen and (max-width: 1199px) {
     .navbar-header {
         float: none;
